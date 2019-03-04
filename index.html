@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Use SVG in HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <h1>Use SVG in HTML</h1>
+    <div>
+      <h2>img Tag</h2>
+      <table>
+        <tr>
+          <th>
+            <img
+              src="./images/baseline-favorite-24px.svg"
+              alt="favorite"
+            />
+          </th>
+          <th>
+            <img
+              class="resized"
+              src="./images/baseline-favorite-24px.svg"
+              alt="favorite"
+            />
+          </th>
+          <th>
+            <img
+              class="transparent"
+              src="./images/baseline-favorite-24px.svg"
+              alt="favorite"
+            />
+          </th>
+          <th>
+            <img
+              class="recolored"
+              src="./images/baseline-favorite-24px.svg"
+              alt="favorite"
+            />
+          </th>
+          <th>
+            <img
+              class="refilled"
+              src="./images/baseline-favorite-24px.svg"
+              alt="favorite"
+            />
+          </th>
+        </tr>
+        <tr>
+          <td>Original</td>
+          <td>
+            <code>width: 36px; <br />height: 36px;</code>
+          </td>
+          <td>
+            <code>opacity: 0.3;</code>
+          </td>
+          <td>
+            <code>color: red;</code>
+          </td>
+          <td>
+            <code>fill: red;</code>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+      </table>
+    </div>
+    <div>
+      <h2>background image</h2>
+      <table>
+          <tr>
+            <th>
+              <span class="heart-icon"/>
+            </th>
+            <th>
+              <span class="bg-resized heart-icon" />
+            </th>
+            <th>
+              <span class="transparent heart-icon" />
+            </th>
+            <th>
+              <span class="recolored heart-icon" />
+            </th>
+            <th>
+              <span class="refilled heart-icon" />
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <code>
+                display: block;<br />
+                background-image: url("...");<br />
+                background-size: 24px;<br />
+                width: 24px;<br />
+                height: 24px;
+              </code>
+            </td>
+            <td>
+              <code>width: 36px; <br />height: 36px;</code>
+            </td>
+            <td>
+              <code>opacity: 0.3;</code>
+            </td>
+            <td>
+              <code>color: red;</code>
+            </td>
+            <td>
+              <code>fill: red;</code>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+        </table>
+    </div>
+    <div>
+      <h2>inline SVG</h2>
+    </div>
+  </body>
+</html>

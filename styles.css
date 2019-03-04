@@ -1,0 +1,42 @@
+.resized {
+  width: 36px;
+  height: 36px;
+}
+
+.bg-resized {
+  background-size: 36px 26px;
+  width: 36px;
+  height: 36px;
+}
+
+.transparent {
+  opacity: 0.3;
+}
+
+.recolored {
+  color: red;
+}
+
+.refilled {
+  fill: red;
+}
+
+.heart-icon {
+  background-image: url("./images/baseline-favorite-24px.svg");
+  display: block;
+  background-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+table,
+th,
+td {
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
